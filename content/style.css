@@ -1338,3 +1338,16 @@ button:not(:disabled) {
       50% { opacity: 0.6; transform: scale(1.06); }
       100% { opacity: 1; transform: scale(1); }
     }
+
+.footer,
+.footer-links {
+  text-align: center;
+}
+
+.affiliate-disclosure,
+.responsible-gaming {
+  text-align: left;
+  margin-top: 15px;
+  font-size: 12px;
+  line-height: 1.6;
+}
