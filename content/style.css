@@ -1348,6 +1348,6 @@ button:not(:disabled) {
 .responsible-gaming {
   text-align: left;
   margin-top: 15px;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 1.6;
 }
