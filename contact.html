@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contact TPower Guide | Website Enquiries</title>
+
+    <meta name="description"
+          content="Contact the independent TPower Guide team for website feedback, content corrections, affiliate enquiries and general questions about our published information.">
+
+    <meta name="robots"
+          content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+    <meta name="author" content="TPower Guide">
+
+    <meta name="theme-color" content="#c30001">
+
+    <!-- Canonical URL -->
+    <link rel="canonical"
+          href="https://www.tpower2.net/contact.html">
+
+    <!-- Language -->
+    <link rel="alternate"
+          hreflang="en"
+          href="https://www.tpower2.net/contact.html">
+
+    <link rel="alternate"
+          hreflang="x-default"
+          href="https://www.tpower2.net/contact.html">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon"
+          sizes="180x180"
+          href="/favicon/apple-touch-icon.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon/favicon-32x32.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon/favicon-16x16.png">
+
+    <link rel="icon"
+          type="image/x-icon"
+          href="/favicon.ico">
+
+    <link rel="manifest"
+          href="/favicon/site.webmanifest">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+
+    <meta property="og:locale" content="en_MY">
+
+    <meta property="og:site_name" content="TPower Guide">
+
+    <meta property="og:title"
+          content="Contact TPower Guide | Website Enquiries">
+
+    <meta property="og:description"
+          content="Contact our independent TPower Guide team regarding website feedback, content corrections, affiliate matters or general enquiries.">
+
+    <meta property="og:url"
+          content="https://www.tpower2.net/contact.html">
+
+    <meta property="og:image"
+          content="https://www.tpower2.net/bg.png">
+
+    <meta property="og:image:alt"
+          content="Contact the independent TPower Guide website">
+
+    <!-- X / Twitter -->
+    <meta name="twitter:card"
+          content="summary_large_image">
+
+    <meta name="twitter:title"
+          content="Contact TPower Guide | Website Enquiries">
+
+    <meta name="twitter:description"
+          content="Send feedback, corrections, affiliate enquiries or general questions to the independent TPower Guide team.">
+
+    <meta name="twitter:image"
+          content="https://www.tpower2.net/bg.png">
+
+    <meta name="twitter:image:alt"
+          content="Contact the independent TPower Guide website">
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "@id": "https://www.tpower2.net/contact.html#webpage",
+      "url": "https://www.tpower2.net/contact.html",
+      "name": "Contact TPower Guide",
+      "description": "Contact page for the independent TPower Guide website.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://www.tpower2.net/#website",
+        "url": "https://www.tpower2.net/",
+        "name": "TPower Guide"
+      },
+      "about": {
+        "@type": "Organization",
+        "name": "TPower Guide",
+        "url": "https://www.tpower2.net/"
+      }
+    }
+    </script>
+
+    <link rel="stylesheet" href="./files/all.min.css">
+    
+    <style>
+        /* Global Styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+        body { background-color: #f8f9fa; color: #333; line-height: 1.6; }
+        a { text-decoration: none; color: #e63946; }
+        
+        .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 15px; }
+        
+        .btn { 
+            display: inline-block; 
+            padding: 12px 25px; 
+            background-color: #c30001; 
+            color: white; 
+            border-radius: 4px; 
+            font-weight: bold; 
+            transition: all 0.3s ease; 
+        }
+        .btn:hover { background-color: #810102; transform: translateY(-2px); }
+
+        /* Navigation */
+        .navbar {
+            background-color: #000;
+            color: white;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .navbar .container { display: flex; justify-content: space-between; align-items: center; }
+        .logo img { height: 40px; width: auto; }
+        .nav-side { flex: 1; } /* Helper for centering logo */
+
+        /* Hero Section */
+        .hero {
+            min-height: 80vh;
+            background: #0f0000 url('./bg.png') center/cover no-repeat;
+            color: white;
+            display: flex;
+            align-items: center;
+            margin-top: 60px;
+            padding: 40px 0;
+        }
+        .hero .container { display: flex; align-items: center; gap: 40px; }
+        .hero-content, .hero-image { flex: 1; }
+        .hero-image img { max-width: 100%; border-radius: 8px; }
+        .hero h1 { font-size: 48px; margin-bottom: 20px; }
+        .hero p { font-size: 18px; margin-bottom: 30px; }
+
+        /* Games Grid */
+        .games-section { padding: 80px 0; background: #fff; }
+        .section-title { text-align: center; margin-bottom: 40px; }
+        .games-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
+            gap: 20px; 
+            margin-bottom: 50px; 
+        }
+        .game-card { 
+            background: #fff; 
+            border-radius: 8px; 
+            overflow: hidden; 
+            transition: transform 0.3s; 
+            border: 1px solid #fff;
+        }
+        .game-card:hover { transform: translateY(-10px); }
+        .game-card img { width: 100%; display: block; }
+
+        .games-content { max-width: 800px; margin: 0 auto; }
+        .games-content h1 { font-size: 28px; margin-bottom: 20px; }
+        .games-content ul { padding-left: 20px; margin-bottom: 20px; }
+
+        /* Footer */
+        footer { background: #000; color: white; padding: 40px 0 20px; text-align: center; }
+        .footer-links { margin: 20px 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+        .footer-links a { color: #ccc; font-size: 14px; }
+        .footer-links a:hover { color: #c30001; }
+        .footer-bottom { border-top: 1px solid #222; padding-top: 20px; font-size: 13px; }
+
+        /* Mobile Adjustments */
+        @media (max-width: 768px) {
+            .hero .container { flex-direction: column; text-align: center; }
+            .hero-image { order: -1; }
+            .hero h1 { font-size: 32px; }
+            .games-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container">
+        <div class="nav-side">
+            <a href="/"><img src="/files/homepage.png" alt="Home" style="height: 30px;"></a>
+        </div>
+        <div class="logo">
+            <img src="./files/logo.webp" alt="TPower Logo">
+        </div>
+        <div class="nav-side"></div> </div>
+</nav>
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-image">
+            <img src="./files/banner_en.png" alt="TPower Banner">
+        </div>
+        <div class="hero-content">
+            <p>TPower is an online entertainment platform offering casino-style games and other gaming categories to eligible adult users across selected Asian markets.</p>
+            <a href="/login" class="btn" target="_blank">Register Tpower</a>
+        </div>
+    </div>
+</section>
+
+<section class="games-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Tpower Hot Games 🔥</h2>
+        </div>
+        <div class="games-grid">
+            <div class="game-card"><img src="./files/tpower-4d-lottery.png" alt="Tpower 4d"></div>
+            <div class="game-card"><img src="./files/tpower-astar-casino.png" alt="tpower astar"></div>
+            <div class="game-card"><img src="./files/tpower-dreamgaming-casino.png" alt="tpower dreamgaming"></div>
+            <div class="game-card"><img src="./files/tpower-joker-baccarat.png" alt="tpower joker baccarat"></div>
+            <div class="game-card"><img src="./files/tpower-playtech-casino.png" alt="tpower playtech"></div>
+            <div class="game-card"><img src="./files/tpower-bwg-slot.png" alt="tpower bwg slot"></div>
+            <div class="game-card"><img src="./files/tpower-epicwin-slot.png" alt="tpower epicwin slot"></div>
+            <div class="game-card"><img src="./files/tpower-lfc888-slot.png" alt="tpower lfc888 slot"></div>
+            <div class="game-card"><img src="./files/tpower-mega888-slot.png" alt="tpower mega888 slot"></div>
+            <div class="game-card"><img src="./files/tpower-pegasus-slot.png" alt="tpower pegasus slot"></div>
+            <div class="game-card"><img src="./files/tpower-uu-slot.png" alt="tpower uu slot"></div>
+            <div class="game-card"><img src="./files/tpower-918kiss-slot.png" alt="tpower 918kiss slot"></div>
+            <div class="game-card"><img src="./files/tpower-vpower-slot.png" alt="tpower vpower slot"></div>
+            <div class="game-card"><img src="./files/tpower-maxbet-sportbet.png" alt="tpower maxbet sportbet"></div>
+            <div class="game-card"><img src="./files/tpower-wbet-sportbet.png" alt="tpower wbet sportbet"></div>
+        </div>
+
+        <div class="games-content">
+<h1>Contact TPower Guide</h1>
+
+<p>
+  Contact the independent <strong>TPower Guide</strong> team for questions
+  about our website, content feedback, incorrect information, partnership
+  opportunities or general enquiries. Please select the appropriate email
+  address below so we can review your message efficiently.
+</p>
+
+<div class="info-box">
+  <p>
+    <strong>Website Support:</strong>
+    <a href="mailto:support@tpower2.net">support@tpower2.net</a>
+  </p>
+
+  <p>
+    <strong>Business and Affiliate Enquiries:</strong>
+    <a href="mailto:business@tpower2.net">business@tpower2.net</a>
+  </p>
+
+  <p>
+    <strong>Availability:</strong>
+    Messages can be submitted at any time. Response times may vary depending
+    on the nature and volume of enquiries.
+  </p>
+</div>
+
+<h2>How to Contact the TPower Guide Team</h2>
+
+<ol>
+  <li>
+    Provide a clear description of your question, feedback or requested
+    correction.
+  </li>
+
+  <li>
+    Include the URL of the relevant TPower Guide page and attach a screenshot
+    when appropriate.
+  </li>
+
+  <li>
+    Send the information to
+    <a href="mailto:support@tpower2.net">support@tpower2.net</a>.
+    Our website team will review your message and respond when appropriate.
+  </li>
+</ol>
+
+<h2>TPower Account and Payment Enquiries</h2>
+
+<p>
+  This is an independent affiliate information website and not the official
+  <strong>TPower</strong> platform. We cannot access gaming accounts, verify
+  transactions, reset passwords or process deposits and withdrawals. For
+  account-related assistance, users should contact the platform through its
+  verified customer-support channel.
+</p>
+
+<h2>Privacy and Security Notice</h2>
+
+<p>
+  Please do not send passwords, verification codes, banking credentials,
+  payment card details or copies of sensitive identity documents by email.
+  If you are reporting a website security issue, include
+  <strong>“Security Report”</strong> in the email subject line and provide
+  only the information necessary for us to investigate it.
+</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-links">
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+            <a href="/privacy.html">Privacy Policy</a>
+            <a href="/terms.html">Terms</a>
+            <a href="/faq.html">FaQ</a>
+            <a href="/readme.html">Site Info</a>
+            <a href="/how-to-register-tpower2.html">Register Guide</a>
+            <a href="/what-is-tpower.html">What Is Tpower</a>
+            <a href="/tpower-game-providers.html">Game Providers</a>
+        </div>
+        <div class="footer-bottom">
+            <p>
+    © Copyright 2025–2026
+    <a href="https://www.tpower2.net">Tpower2</a> |
+    <a href="https://www.tpower3.net">TPower3</a>.
+    All Rights Reserved.
+  </p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Optimized Scroll Effect
+    window.addEventListener('scroll', () => {
+        const navbar = document.querySelector('.navbar');
+        navbar.style.padding = window.scrollY > 50 ? '8px 0' : '15px 0';
+    });
+</script>
+
+</body>
+</html>
